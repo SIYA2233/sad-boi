@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="harrnish - ig@harrnish">
+      <link rel="icon" href="yourIconUrl" type="image/gif" sizes="16x16">
+      <!--google font-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+      <title>SAD-BOII</title>
+
+      <!-- external stylesheet -->
+      <link rel="stylesheet" href="style.css">
+
+      <!-- bootstrapcdn -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <!-- icon pack -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+      <!-- google font -->
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+      <!-- jquery cdn -->
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+      <!-- tweenmax (greensock) cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="animate.css">
+      <script src="wow.min.js"></script>
+</head>
+<body>
+      <div class="my-container">
+
+            <!-- NAVIGATION STARTS -->
+
+            <div class="nav">
+                  <div class="menu-open">
+                        <ion-icon name="menu"></ion-icon>
+                  </div>
+                  <div class="brand">
+                        <span><a href="index.html">Sad-Boii</a></span>
+                  </div>
+                  <div class="cart">
+                        <ion-icon name="cart"></ion-icon>
+                  </div>
+                  <div class="menu">
+                        <div class="menu-close">
+                              <ion-icon name="close"></ion-icon>
+                        </div>
+                        <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="shop.html">collection</a></li>
+                              <li><a href="product.html">Product</a></li>
+                              <li><a href="about.html">Our story</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="media-menu">
+                              <ul>
+                              </a><a href="https://www.instagram.com/sadboii_za/" target="_blank" class="iconfont-wrapper">
+                                    <span class="amp-iconfont animation-normal fa-instagram fa"><svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"></path></svg></span>
+                              </a><a href="https://www.facebook.com/Sadboii_za-611972769252400" target="_blank" class="iconfont-wrapper">
+                                    <span class="amp-iconfont animation-normal fa-facebook-square fa"><svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"></path></svg></span>
+                              </a><a href="https://mobile.twitter.com/sadboii_za" target="_blank" class="iconfont-wrapper">
+                                    <span class="amp-iconfont animation-normal fa-twitter fa"><svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path></svg></span>
+                              </a><a href="https://za.pinterest.com/sadboii_za/" target="_blank" class="iconfont-wrapper">
+                                    <span class="amp-iconfont animation-normal fa-pinterest fa"><svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103q-111 0-218-32 59-93 78-164 9-34 54-211 20 39 73 67.5t114 28.5q121 0 216-68.5t147-188.5 52-270q0-114-59.5-214t-172.5-163-255-63q-105 0-196 29t-154.5 77-109 110.5-67 129.5-21.5 134q0 104 40 183t117 111q30 12 38-20 2-7 8-31t8-30q6-23-11-43-51-61-51-151 0-151 104.5-259.5t273.5-108.5q151 0 235.5 82t84.5 213q0 170-68.5 289t-175.5 119q-61 0-98-43.5t-23-104.5q8-35 26.5-93.5t30-103 11.5-75.5q0-50-27-83t-77-33q-62 0-105 57t-43 142q0 73 25 122l-99 418q-17 70-13 177-206-91-333-281t-127-423q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path></svg></span>
+                              </a></div>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- NAVIGATION ENDS -->
+
+            <!-- HERO SECTION STARTS -->
+
+            <div class="hero-section">
+                  <div class="container-fluid">
+                        <div class="row">
+                              <div class="col-lg-6 hero-left">
+                                    <div class="tagline">
+                                          <p class="wow fadeInUp">We love pushing authentic design, <br>self expression <br>Our white hoodies are a statement on their own🕊
+                                                .</p>
+                                    </div>
+
+                                    <div class="shipping">
+                                          <p class="wow fadeInUp" data-wow-delay="0.5s">Complimentary ground shipping on all orders from as little as R82.99</p>
+                                    </div>
+                              </div>
+
+                              <div class="col-lg-6 hero-right">
+                                    <div class="hero-image">
+                                          <img src="images/YEHODDIE.jpg" class="img wow fadeInUp" data-wow-delay="0.3s" alt="">
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- HERO SECTION ENDS -->
+
+            <!-- PRODUCT LIST STARTS -->
+
+            <div class="section prod-list">
+                  <div class="container-fluid">
+                        <div class="row some-cards">
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.5s">
+                                    <a href="product.html">
+                                          <p id="price">R400.00</p>
+                                          <img src="images/HOODIES/PURPH1.jpg" alt="">
+                                          <p id="prod-desc">FLAVO INDIGO-HOODIE</p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.8s">
+                                    <a href="product.html">
+                                          <p id="price">R400.00</p>
+                                          <img src="images/Sadboi archive/GHODDIE2.jpg" alt="">
+                                          <p id="prod-desc">FLAVO G-HOODIE</p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="1.1s">
+                                    <a href="product.html">
+                                          <p id="price">R400</p>
+                                          <img src="images/Sadboi archive/YH2.jpg" alt="">
+                                          <p id="prod-desc">FLAVO Y-HOODIE </p>
+                                    </a>
+                              </div>
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="1.4s">
+                                    <a href="product.html">
+                                          <p id="price">R280</p>
+                                          <img src="images/Sadboi archive/TEE1.jpg" alt="">
+                                          <p id="prod-desc">DRIP ADDICT TEES</p>
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- PRODUCT LIST ENDS -->
+
+            <!-- BANNER SECTION STARTS -->
+
+            <div class="row prod-sec">
+                  <div class="col-lg-6 prod-img">
+                        <img src="images/Sadboi archive/sad1.jpg" alt="">
+                  </div>
+
+                  <div class="col-lg-4 prod-desc">
+                        <br><br>
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">The way to get started is to quit talking and begin doing. Get started with our tools and boost your productivity.</p>
+
+                        <div class="link wow fadeInUp" data-wow-delay="0.6s">
+                              <a href="shop.html">shop now <ion-icon name="arrow-round-forward"></ion-icon></a>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- BANNER SECTION ENDS -->
+
+            <!-- CATEGORIES SECTION STARTS -->
+
+            <div class="container-fluid">
+                  <div class="row section shop">
+                        <div class="col-lg-8">
+                              <p class="wow fadeInUp" data-wow-delay="0.4s">Do not wait; the time will never be right. Start where you stand, and work with whatever tools you may have at your command, and better tools will be found as you go along.</p>
+
+                              <div class="link wow fadeInUp" data-wow-delay="0.6s">
+                                    <a href="shop.html">learn more <ion-icon name="arrow-round-forward"></ion-icon></a>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="container-fluid">
+                        <div class="row some-cards">
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.3s">
+                                    <img src="images/HOODIES/2yey.jpg" alt="">
+                                    <p id="prod-desc">master piece </p>
+                              </div>
+
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.3s">
+                                    <img src="images/HOODIES/b&w aii.jpg" alt="">
+                                    <p id="prod-desc">don't you just love our hoddies </p>
+                              </div>
+
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.5s">
+                                    <img src="images/HOODIES/spotie.jpg" alt="">
+                                    <p id="prod-desc">head-wear selection </p>
+                              </div>
+
+                              <div class="col-lg-3 prod wow fadeInUp" data-wow-delay="0.7s">
+                                    <img src="images/HOODIES/ghstransi.jpg" alt="">
+                                    <p id="prod-desc">f hoddie</p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- CATEGORIES SECTION ENDS -->
+
+            <br><br><br>
+
+            <!-- FOOTER STARTS -->
+
+            <div class="container-fluid footer">
+                  <div class="section container">
+                        <footer>
+                              <div class="row">
+                                    <div class="col-lg-3 block">
+                                          <p>boksburg north, 3581 Lunneta Street,
+                                          <br>
+                                          Siesta Key, plazaa. 20002,
+                                          <br>
+                                          </p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <p>FAQs
+                                          <br>
+                                          Return Policy
+                                          <br>
+                                          Shipping</p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <p>Careers
+                                          <br>
+                                          Community
+                                          <br>
+                                          Wholesale</p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <div class="media">
+                        
+
+				<!-- SOCIAL ICON -->
+				<div class="menu-social-list">
+
+                              <a href="https://www.facebook.com/Sadboii_za-611972769252400/" target="_blank" class="iconfont-wrapper">
+                                          <span class="amp-iconfont animation-normal fa-facebook-square fa"><svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"></path></svg></span>
+                                    </a><a href="https://www.instagram.com/sadboii_za/" target="_blank" class="iconfont-wrapper">
+                                          <span class="amp-iconfont animation-normal fa-instagram fa"><svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"></path></svg></span>
+                                    </a><a href="https://mobile.twitter.com/sadboii_za" target="_blank" class="iconfont-wrapper">
+                                          <span class="amp-iconfont animation-normal fa-twitter fa"><svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path></svg></span>
+                                    </a><a href="https://za.pinterest.com/sadboii_za/" target="_blank" class="iconfont-wrapper">
+                                          <span class="amp-iconfont animation-normal fa-pinterest fa"><svg width="25" height="25" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103q-111 0-218-32 59-93 78-164 9-34 54-211 20 39 73 67.5t114 28.5q121 0 216-68.5t147-188.5 52-270q0-114-59.5-214t-172.5-163-255-63q-105 0-196 29t-154.5 77-109 110.5-67 129.5-21.5 134q0 104 40 183t117 111q30 12 38-20 2-7 8-31t8-30q6-23-11-43-51-61-51-151 0-151 104.5-259.5t273.5-108.5q151 0 235.5 82t84.5 213q0 170-68.5 289t-175.5 119q-61 0-98-43.5t-23-104.5q8-35 26.5-93.5t30-103 11.5-75.5q0-50-27-83t-77-33q-62 0-105 57t-43 142q0 73 25 122l-99 418q-17 70-13 177-206-91-333-281t-127-423q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path></svg></span>
+                                    </a></div>
+                              <!-- SOCIAL ICON END -->
+                              <!-- SHOW BUTTON -->
+                              
+                              <!-- SHOW BUTTON END -->
+                        </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </footer>
+                  </div>
+            </div>
+
+            <!-- FOOTER ENDS -->
+
+      </div>
+
+      <script type="text/javascript">
+
+      //Scroll reveal animations
+
+      new WOW().init();
+
+      //Scroll activated background change
+      $(function() {
+            $(document).scroll(function() {
+                  var $nav = $(".nav");
+                  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+      });
+
+      //Toggle MENU
+
+      var t1 = new TimelineMax({paused: true});
+      t1.to(".menu", 0.5, {
+            left: "0%",
+            ease: Power2.easeInOut
+      });
+
+      t1.reverse();
+      $(document).on("click", ".menu-open", function() {
+            t1.reversed(!t1.reversed());
+      });
+      $(document).on("click", ".menu-close", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      </script>
+</body>
+</html>

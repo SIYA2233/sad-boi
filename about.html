@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="SIYABONGA ARTWORKS">
+      <link rel="icon" href="yourIconUrl" type="image/gif" sizes="16x16">
+      <title>About us - sadboii</title>
+
+      <!-- external stylesheet -->
+      <link rel="stylesheet" href="style.css">
+
+      <!-- bootstrapcdn -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <!-- icon pack -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+     <!--google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+      <!-- jquery cdn -->
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+      <!-- tweenmax (greensock) cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="animate.css">
+      <script src="wow.min.js"></script>
+</head>
+<body>
+      <div class="about-container">
+
+            <!-- NAVIGATION STARTS -->
+
+            <div class="nav">
+                  <div class="menu-open">
+                        <ion-icon name="menu"></ion-icon>
+                  </div>
+                  <div class="brand">
+                        <span><a href="index.html">Sad-boii</a></span>
+                  </div>
+                  <div class="cart">
+                        <ion-icon name="cart"></ion-icon>
+                  </div>
+                  <div class="menu">
+                        <div class="menu-close">
+                              <ion-icon name="close"></ion-icon>
+                        </div>
+                        <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="shop.html">collection</a></li>
+                              <li><a href="product.html">Product</a></li>
+                              <li><a href="about.html">Our story</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="media-menu">
+                              <ul>
+                                    <li><ion-icon name="logo-facebook"></ion-icon></li>
+                                    <li><ion-icon name="logo-instagram"></ion-icon></li>
+                                    <li><ion-icon name="logo-twitter"></ion-icon></li>
+                                    <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+
+            <!-- NAVIGATION ENDS -->
+
+            <!-- DATA SECTION STARTS -->
+
+            <div class="about-hero">
+                  <div class="container-fluid hero wow fadeInUp">
+                        <h1 id="hero-title">My story</h1>
+                  </div>
+
+                  <div class="container content">
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">SIBONELO BLESSING SIBISI (SB) - My Story
+
+                              Sadboii isn’t only about being sad but it’s deeper than that.
+                              Way deeper, the label looks at all of the things that make you, you. You might not have woken up and thought the way you did a couple of years before today but they are surely different. 
+                              
+                             
+                              
+                            
+
+                        <p class="wow fadeInUp" data-wow-delay="0.6s"> In other words being a sadboii isn’t only about being all in your emotions and bumming people out with your sad stories but I look at it as a person who has gone through something in their life that projects their train of thought to a greater plane in life.</p>
+
+                        <p id="blockquote" class="wow fadeInUp" data-wow-delay="0.7s">  That loss, heartbreak, emotional awareness, discovery and ultimately sadness is that breaking point in everyone’s life where you had to go through a deep cycle of introspection that lead to you going for your goals and seeing the vision more clearly. That’s what a sadboii is to me.</p>
+
+                      
+                  </div>
+            </div>
+
+            <!-- DATA SECTION ENDS -->
+
+            <!-- FOOTER STARTS -->
+
+            <div class="container-fluid footer">
+                  <div class="section container">
+                        <footer>
+                              <div class="row">
+                                    <div class="col-lg-3 block">
+                                          <p>Kalia, 3581 Lunneta Street,
+                                          <br>
+                                          Siesta Key,  20002,
+                                          <br>
+                                          Gandi</p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <p>FAQs
+                                          <br>
+                                          Return Policy
+                                          <br>
+                                          Shipping</p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <p>Careers
+                                          <br>
+                                          Community
+                                          <br>
+                                          Wholesale</p>
+                                    </div>
+                                    <div class="col-lg-3 block">
+                                          <div class="media">
+                                                <ul>
+                                                      <li><ion-icon name="logo-facebook"></ion-icon></li>
+                                                      <li><ion-icon name="logo-instagram"></ion-icon></li>
+                                                      <li><ion-icon name="logo-twitter"></ion-icon></li>
+                                                      <li><ion-icon name="logo-pinterest"></ion-icon></li>
+                                                </ul>
+                                          </div>
+                                    </div>
+                              </div>
+                        </footer>
+                  </div>
+            </div>
+
+
+            <!-- FOOTER ENDS -->
+            </div>
+
+            <script type="text/javascript">
+
+            //Scroll reveal animations
+
+            new WOW().init();
+
+            //Scroll activated background change
+            $(function() {
+                  $(document).scroll(function() {
+                        var $nav = $(".nav");
+                        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                  });
+            });
+
+            //Toggle MENU
+
+            var t1 = new TimelineMax({paused: true});
+            t1.to(".menu", 0.5, {
+                  left: "0%",
+                  ease: Power2.easeInOut
+            });
+
+            t1.reverse();
+            $(document).on("click", ".menu-open", function() {
+                  t1.reversed(!t1.reversed());
+            });
+            $(document).on("click", ".menu-close", function() {
+                  t1.reversed(!t1.reversed());
+            });
+
+            </script>
+</body>
+</html>
